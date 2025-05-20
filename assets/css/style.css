@@ -264,7 +264,7 @@ header .logo {
   color: black;
   font-weight: normal;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 header ul {
@@ -283,7 +283,7 @@ header ul li a {
   padding: 8px 15px;
   border-radius: 1rem;
   transition: 500ms ease;
-  font-size: 14px; /* or try 14px, 16px, etc. */
+  font-size: 16px; /* or try 14px, 16px, etc. */
 }
 
 header ul li a:hover,
