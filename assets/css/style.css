@@ -273,7 +273,7 @@ header ul {
 
 header ul li {
   list-style: none;
-  margin: 10px;
+  margin: 0;
 }
 
 header ul li a {
