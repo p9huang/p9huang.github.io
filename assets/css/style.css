@@ -1107,10 +1107,11 @@ footer ul li a.active {
 
 
 /* --- Fix for profile image on mobile --- */
+/* --- Mobile layout: photo above text --- */
 @media (max-width: 768px) {
   .content {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse; /* put image above text */
     align-items: center;
     gap: 1rem;
   }
@@ -1122,12 +1123,12 @@ footer ul li a.active {
   }
 
   .img img {
-    max-width: 220px;
+    max-width: 220px;   /* adjust as needed */
     width: 60%;
     height: auto;
     display: block;
     margin: 0 auto;
     object-fit: cover;
-    /* border-radius: 50%;  optional for a circle crop */
+    /* border-radius: 50%;  <- optional: makes it a circle */
   }
 }
