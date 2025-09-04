@@ -1103,3 +1103,31 @@ footer ul li a.active {
   opacity: 1;
   visibility: visible;
 }
+
+
+
+/* --- Fix for profile image on mobile --- */
+@media (max-width: 768px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .img {
+    display: block !important;
+    width: 100%;
+    text-align: center;
+  }
+
+  .img img {
+    max-width: 220px;
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    /* border-radius: 50%;  optional for a circle crop */
+  }
+}
